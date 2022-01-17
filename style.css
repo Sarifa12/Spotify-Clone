@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:antiquewhite ;
+}
+nav{
+ font-family: 'Roboto Mono', monospace;
+
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 69px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding:0 12px;
+
+}
+.brand img{
+    width: 48px;  
+    padding:0 8px;
+}
+.brand {
+    display:flex ;
+    align-items: center;
+    font-weight:bolder;
+    font-size: 1.3rem;
+    padding: 34px;
+}
+.container{
+    min-height:70vh;
+    background-color: black;
+    color:white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    display: flex;
+    width:70%;
+    border: radius 12px; ;
+    margin: 23px auto;
+    background-image: url('../imagefloder/radio.jpg');
+    
+
+
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color:black;
+    color:white;
+    bottom:0 ;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 24px;
+}
+.icons i{
+    cursor:pointer;
+}
+#myProgresBar{
+    width:80vw;
+    cursor: pointer;
+    
+}
+.songItem{
+    height: 50px; 
+    display:flex;
+    background-color:white;
+    color:black;
+    margin:12px 0;
+    justify-content: space-between;
+    align-items:center;
+    border-radius: 34px;
+}
+.songItem img{
+width:35px;
+margin:0 18px;
+border-radius:35px;
+}
+.timestamp{
+    margin: 0 23px;
+    
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position:absolute;
+    left:10vw;
+
+
+}
+.songInfo img{
+    width:80px;
+    height:70px;
+    margin-top: 10px;
+    padding:5px;
+    opacity: 0;
+    transition: opacity is ease-in;
+}
